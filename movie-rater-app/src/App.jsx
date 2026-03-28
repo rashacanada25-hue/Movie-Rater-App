@@ -47,7 +47,6 @@ export default function App() {
     nav: { backgroundColor: '#7FFFD4', padding: '15px', display: 'flex', justifyContent: 'center', gap: '20px', borderTop: '2px solid black', borderBottom: '2px solid black' },
     navBtn: { backgroundColor: '#87CEEB', padding: '8px 30px', borderRadius: '20px', border: '1px solid gray', cursor: 'pointer', fontWeight: 'bold' },
     topDisplay: { display: 'flex', justifyContent: 'center', gap: '25px', padding: '20px' },
-    movieBox: { width: '150px', height: '110px', backgroundSize: 'cover', backgroundPosition: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'white', fontWeight: 'bold', border: '2px solid black', cursor: 'pointer', textShadow: '2px 2px 4px black', textAlign: 'center' },
     mainWrapper: { display: 'flex', maxWidth: '1200px', margin: '0 auto', border: '2px solid black', minHeight: '550px' },
     content: { flex: 3, backgroundColor: '#6A5ACD', padding: '40px', color: 'white' },
     sidebar: { flex: 1, backgroundColor: '#C0C0C0', borderLeft: '2px solid black', padding: '15px' },
